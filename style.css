@@ -222,6 +222,10 @@ form button {
     margin-bottom: 30px;
 }
 
+.telephone a {
+    text-decoration: none;
+    color: #ED4621;
+}
 .telephone {
     margin-bottom: 30px;
 }
