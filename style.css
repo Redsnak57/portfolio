@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+body {
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFECE9;
+}
+
+/* Menu */
+nav ul li {
+    list-style: none;
+    margin: 120px;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+nav ul li img {
+    margin-top: -13px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    background-color: #ED4621;
+    height: 90px;  
+    width: 100%;
+    position: fixed; 
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFECE9;
+}
+
+ul li a:hover{
+    color: #E9E2E1;
+    border-bottom: #FFECE9 solid 1px;
+}
+
+/* Fin Menu */ 
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('asset/bg.jpg');
+    background-size: cover;
+    color: #E9E2E1;
+    padding: 250px;
+    margin-top: -15px;
+}
+
+header h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+header h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: -21px;
+}
+
+/* Fin Header */
+
+/* skill */
+
+.competences {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.competences h1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #3D3635;
+    text-transform : uppercase;
+    font-size: 40px;
+}
+
+.competences h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #3D3635;
+    margin-top: -30px;
+    font-size: 25px; 
+}
+
+.competences p {
+    color: #ED4621;
+    font-size: 3em;
+    margin-top: -50px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.backEnd {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.frontEnd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divers {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/* fin skill */ 
+
+/* projet */ 
+
+.projet {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.projet h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #3D3635;
+    text-transform : uppercase;
+    font-size: 40px;
+}
+
+.projet h3 {
+    font-family:'Josefin Sans', sans-serif;
+    color: #3D3635;
+    margin-top: -30px;
+    font-size: 25px; 
+}
+
+.projet p {
+    color: #ED4621;
+    font-size: 3em;
+    margin-top: -50px;
+}
+
+.container2, .container3 { 
+    display: flex;
+    justify-content: space-around;
+}
+
+.site1 p , .site2 p , .site3 p, .site4 p, .site5 p, .site6 p {
+    color: #3D3635;
+    font-size: 25px;
+    margin-top: -2px;
+}
+
+/* fin projet */
+
+/* footer */
+
+#contact {
+    background-color: #E9E2E1;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #3D3635;
+    text-transform : uppercase;
+    font-size: 40px;
+}
+
+.footer p {
+    color: #ED4621;
+    font-size: 3em;
+    margin-top: -50px;
+}
+
+.container4{
+    display: flex;
+    flex-direction:column;   
+    margin-top: -260px;
+    padding: 0px 47px;
+    margin-left: 800px;
+}
+
+form {
+    display: flex; 
+    flex-direction:column;
+}
+
+form textarea:hover, input:hover {
+    border-bottom: 1px solid #ED4621;
+}
+form input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;   
+    transition: 0.1s;
+}
+
+form textarea{
+    width: 95%;
+    resize: none;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+form button {
+    height: 40px;
+    width: 100px;
+    background-color :#ED4621;
+    border: none; 
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.container5 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+
+
+/* fin footer */
