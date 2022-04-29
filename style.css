@@ -121,6 +121,18 @@ header h3 {
     align-items: flex-end;
 }
 
+.competences-front, .competences-back, .competences-divers {
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.competences-front img, .competences-back img, .competences-divers img {
+    width: 5%;
+    margin-bottom: 60px;
+}
+
+
 /* fin skill */ 
 
 /* projet */ 
@@ -247,3 +259,12 @@ form button {
     margin-bottom: 30px;
 }
 /* fin footer */
+
+@media (max-width: 800px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+}
