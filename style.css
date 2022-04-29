@@ -42,9 +42,7 @@ nav ul li a {
 ul li a:hover{
     color: #E9E2E1;
     border-bottom: #FFECE9 solid 1px;
-}
-
-/* Fin Menu */ 
+} 
 
 /* Header */
 header {
@@ -67,8 +65,6 @@ header h3 {
     font-family: 'Josefin Sans', sans-serif;
     margin-top: -21px;
 }
-
-/* Fin Header */
 
 /* skill */
 
@@ -98,42 +94,15 @@ header h3 {
     margin-top: -50px;
 }
 
-.container1 {
-    display: flex;
-    justify-content: space-around;
-}
-
-.backEnd {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.frontEnd {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.divers {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
 .competences-front, .competences-back, .competences-divers {
     display: flex;
-    justify-content:space-around;
-    
+    justify-content:space-around; 
 }
 
 .competences-front img, .competences-back img, .competences-divers img {
     width: 5%;
-    margin-bottom: 60px;
-}
-
-
-/* fin skill */ 
+    margin-bottom: 55px;
+} 
 
 /* projet */ 
 
@@ -173,8 +142,6 @@ header h3 {
     font-size: 25px;
     margin-top: -2px;
 }
-
-/* fin projet */
 
 /* footer */
 
@@ -258,7 +225,6 @@ form button {
 .telephone {
     margin-bottom: 30px;
 }
-/* fin footer */
 
 @media (max-width: 800px) {
     nav ul {
