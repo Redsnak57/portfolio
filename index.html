@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Développeur web </title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <nav>       
+    <nav>   
+        <a id="icon-menu" href=""><img src="asset/menu-icon.png" alt="Icon Burger"></a>    
         <ul>
             <li><a href="index.html"><img src="asset/home.png"></a></li>
             <li><a href="#competences">Compétences</a></li>
@@ -17,10 +19,19 @@
         </ul>          
     </nav>
 
-    <header>
-        <h1>Malbrun Corentin</h1>
-        <h3>Développeur informatique</h3>       
-    </header>
+        <div class="slider">
+            <img src="asset/bg_01.jpg" alt="BG01" class="img__slider active" >
+            <img src="asset/bg.jpg" alt="BG" class="img__slider">
+            <h1>Malbrun Corentin</h1>
+            <h3>Développeur informatique</h3> 
+            <div class="suivant">
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="precedent">
+                <i class="fa-solid fa-angle-left"></i>
+            </div>
+        </div>      
+
 
     <section id="competences">
         <div class="competences">
@@ -29,7 +40,7 @@
             <p>_____</p>
         </div>
         <div class="competences-front">
-            <img src="asset/jsLogo.webp" alt="">
+            <img src="asset/nodejs-icon.png" alt="">
             <img src="asset/symfonyLogo.png" alt="">
             <img src="asset/React-icon.png" alt="">
         </div>
@@ -114,8 +125,6 @@
             </div>           
         </footer>
     </section>
-
-
-
+    <script src="app.js"></script>
 </body>
 </html>
