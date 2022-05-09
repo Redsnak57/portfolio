@@ -5,17 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Développeur web </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
 </head>
-<body>
-    <nav>       
-        <ul>
-            <li><a href="index.html"><img src="asset/home.png"></a></li>
+<body>    
+    <nav>
+        <div class="toggle">
+            <i class="fas fa-bars ouvrir"></i>
+            <i class="fas fa-times fermer"></i>
+        </div>
+        <ul class="menu">
+            <li><a href="index.html">Accueil</a></li>
             <li><a href="#competences">Compétences</a></li>
             <li><a href="#projet">Projet</a></li>
             <li><a href="#contact">Contact</a></li>
-        </ul>          
+        </ul>
     </nav>
+
+    <a href="#" class="gotop"><img src="asset/icon-haut.png" alt=""></a>
 
     <header>
         <h1>Malbrun Corentin</h1>
@@ -83,40 +91,38 @@
         </div>
     </section>
 
-    <section id="contact">
-        <footer>
-            <div class="footer">
-                <h1>Contactez-moi</h1>
-                <p>_____</p>
-            </div>  
-            <div class="container5">
-                <div class="adresse">
-                    <img src="asset/adresse.png" alt="Adresse">Mon adresse
-                    <p>Adresse 57000 Adresse</p>
-                </div>
-                <div class="telephone">
-                    <img src="asset/github-contact.png" alt="Téléphone"><a href="https://github.com/Redsnak57" target="blank">Mon Github</a>
-                </div>
-                <div class="email">
-                    <img src="asset/email.png" alt="Email">Mon email
-                    <p>email@email.com </p>
-                </div>
-            </div>               
-            <div class="container4">
-                <form action="#" method="POST">
-                    <input type="text" name="name" placeholder="Entrez votre nom" required=""> 
-                    <input type="email" name="email" placeholder="Entrez votre email" required="">
-                    <input type="text" name="sujet" placeholder="Entrez votre sujet" required="">
-                    <input type="text" name="number" placeholder="Entrez votre numéro de téléphone" required="">
-                    <textarea name="message" placeholder="Entrez votre message"></textarea>
-                    <button type="submit">Envoyer</button>
-                </form>
-            </div>           
-        </footer>
-    </section>
+    <div class="footer" id="contact">
+        <h1>Contactez-moi</h1>
+        <p>_____</p>
+    </div> 
+    <footer> 
+        <div class="container5">
+            <div class="adresse">
+                <img src="asset/adresse.png" alt="Adresse">Mon adresse
+                <p>Adresse 57000 Adresse</p>
+            </div>
+            <div class="telephone">
+                <img src="asset/github-contact.png" alt="Téléphone"><a href="https://github.com/Redsnak57" target="blank">Mon Github</a>
+            </div>
+            <div class="email">
+                <img src="asset/email.png" alt="Email">Mon email
+                <p>email@email.com </p>
+            </div>
+        </div>               
+        <div class="container4">
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Entrez votre nom" required=""> 
+                <input type="email" name="email" placeholder="Entrez votre email" required="">
+                <input type="text" name="sujet" placeholder="Entrez votre sujet" required="">
+                <input type="tel" name="number" placeholder="Entrez votre numéro de téléphone" required="">
+                <textarea name="message" placeholder="Entrez votre message"></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>           
+    </footer>
 
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="app.js"></script>
-
+    <script src="menu.js"></script>
 </body>
 </html>

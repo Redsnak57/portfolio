@@ -5,11 +5,65 @@ body {
     margin-right: 0px;
     display: flex;
     flex-direction: column;
-    background-color: #FFECE9;    
+    background-color: #FFECE9;  
+}
+
+html{
+    scroll-behavior:smooth;
 }
 
 /* Menu */
-nav ul li {
+
+.gotop{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background: #ED4621;
+    bottom: 10px;
+    right: 2px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+
+
+}
+
+nav {
+    background-color: #ED4621;
+    height: 100px;  
+    width: 100%;
+    display: flex;
+    margin-top: -12px;
+}
+
+.toggle {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.menu li a {
+    color: #FFECE9;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 100px;
+}
+
+.menu li a:hover{
+    color: #E9E2E1;
+    border-bottom: #FFECE9 solid 1px;
+}
+
+
+/* nav ul li {
     list-style: none;
     margin: 120px;
     margin-top: 20px;
@@ -42,10 +96,10 @@ nav ul li a {
 ul li a:hover{
     color: #E9E2E1;
     border-bottom: #FFECE9 solid 1px;
-} 
+}  */
 
 /* ul li a:focus{
-    color: red;
+    background-color: red;
 }  */
 
 /* Header */
@@ -56,7 +110,7 @@ header {
     background: url('asset/bg.jpg');
     background-size: cover;
     color: #E9E2E1;
-    padding: 222px;
+    padding: 180px;
     margin-top: -15px;
 }
 
@@ -153,8 +207,13 @@ header h5 {
 
 /* footer */
 
-#contact {
+.footer, footer {
     background-color: #E9E2E1;
+    width: 100%;
+}
+
+footer {
+    display: flex;
 }
 
 .footer {
@@ -179,9 +238,8 @@ header h5 {
 .container4{
     display: flex;
     flex-direction:column;   
-    margin-top: -330px;
+    width: 50%;
     padding: 0px 47px;
-    margin-left: 800px;
 }
 
 form {
@@ -200,9 +258,9 @@ form input, textarea {
 }
 
 form textarea{
-    width: 95%;
+    width: 96.5%;
     resize: none;
-    height: 80px;
+    height: 85px;
     margin-bottom: 20px;
 }
 
@@ -219,10 +277,11 @@ form button {
 
 .container5 {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     flex-direction: column;
     margin-left: 100px;
-    margin-top: 15px;
+    margin-top: -50px;
+    width: 50%;
 
 }
 
@@ -238,26 +297,3 @@ form button {
     margin-bottom: 30px;
 }
 
-
-@media (max-width: 800px) { 
-    
-    nav ul li {
-      margin: 35px;
-      margin-top: 20px;
-    }  
-
-    form {
-        display: flex;
-        text-align: center;
-        margin-left:-500px;
-    }
-    form input, textarea {
-        width: 50%;
-    }
-    form textarea {
-        width: 50%;
-    }
-    form button {
-        margin-left: 100px;
-    }
-  }
