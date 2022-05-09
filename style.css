@@ -44,6 +44,10 @@ ul li a:hover{
     border-bottom: #FFECE9 solid 1px;
 } 
 
+/* ul li a:focus{
+    color: red;
+}  */
+
 /* Header */
 header {
     display: flex;
@@ -59,12 +63,13 @@ header {
 header h1 {
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
+    font-size: 2em;
 }
 
 header h5 {
     font-family: 'Josefin Sans', sans-serif;
     margin-top: -21px;
-    font-size: 50px;
+    font-size: 3.2em;
 }
 
 /* skill */
@@ -73,6 +78,7 @@ header h5 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .competences h1{
@@ -136,6 +142,7 @@ header h5 {
 .container2, .container3 { 
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .site1 p , .site2 p , .site3 p, .site4 p, .site5 p, .site6 p {
@@ -215,7 +222,7 @@ form button {
     justify-content: flex-end;
     flex-direction: column;
     margin-left: 100px;
-    margin-top: -10px;
+    margin-top: 15px;
 
 }
 
@@ -231,11 +238,26 @@ form button {
     margin-bottom: 30px;
 }
 
-@media (max-width: 800px) {
-    nav ul {
-        display: flex;
-        flex-direction: column;
-        
-    }
 
-}
+@media (max-width: 800px) { 
+    
+    nav ul li {
+      margin: 35px;
+      margin-top: 20px;
+    }  
+
+    form {
+        display: flex;
+        text-align: center;
+        margin-left:-500px;
+    }
+    form input, textarea {
+        width: 50%;
+    }
+    form textarea {
+        width: 50%;
+    }
+    form button {
+        margin-left: 100px;
+    }
+  }
