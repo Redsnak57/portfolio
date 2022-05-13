@@ -62,42 +62,6 @@ nav {
     border-bottom: #FFECE9 solid 1px;
 }
 
-
-/* nav ul li {
-    list-style: none;
-    margin: 120px;
-    margin-top: 20px;
-    font-size: 20px;
-
-}
-
-nav ul li img {
-    margin-top: -13px;
-}
-
-nav ul {
-    display: flex;
-    flex-direction: row;
-}
-
-nav {
-    background-color: #ED4621;
-    height: 90px;  
-    width: 100%;
-    position: fixed; 
-}
-
-
-nav ul li a {
-    text-decoration: none;
-    color: #FFECE9;
-}
-
-ul li a:hover{
-    color: #E9E2E1;
-    border-bottom: #FFECE9 solid 1px;
-}  */
-
 /* ul li a:focus{
     background-color: red;
 }  */

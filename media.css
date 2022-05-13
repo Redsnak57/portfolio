@@ -121,6 +121,7 @@
 }
 
 @media (max-width:320px){
+
     nav {
         background-color: transparent;
         z-index: 1;
@@ -220,6 +221,11 @@
     }
 
     .container2 p, .container3 p {
+        margin-left: 20px;
+    }
+
+    .site1 img, .site2 img, .site3 img, .site4 img, .site5 img, .site6 img {
+        width: 75%;
         margin-left: 20px;
     }
     
